@@ -22,7 +22,7 @@ int main() {
     // Right now, as this is a prototype, we'll assume it is 64x64. :/
     
     std::string fileout = "64x64\n";
-    for(int i = 0; i < 64*64; i++){
+    for(int i = 0; i < 64*64*3; i++){
         
         for(int j = 0; j < std::stoi(originalfile.at(i+3)); j++){
             fileout = fileout + "+";
