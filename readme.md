@@ -28,3 +28,7 @@ We don't need the input or output methods as we already output to the screen and
 ### Long term:
 - Use GMMF to make portable 2D games with textures built into the executable directly
 - Use GMMF to deploy web content to potentially a lot of users
+## PPMtoBF
+PPMtoBF is the transpiler used to transform PPM to Brainfuck code.
+### Known issues:
+- Mathematically, it takes a f***ing long time to complete a 64x64 image. I'm writing this as the first Felix Argyle image slowly but surely transforms to BF. I can't even write the reader yet; I don't have anything to test it with. AAAAAAAAAAAAAAAAAAA
