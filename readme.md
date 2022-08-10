@@ -19,6 +19,12 @@ Brainfuck is used for many reasons, but the mains are:
 | - | ✔ | Decrements the value of the space the pointer is at |
 | . | ❌ | Output a value |
 | + | ❌ | Input a value |
------------------------
 
-We don't need t
+We don't need the input or output methods as we already output to the screen and we don't need interactivity. It \*IS\* planned to add a scripting engine to GMMF to make a Macromedia Flash-style application framework that could even run easily on the web.
+## Objectives with GMMF
+### Short term:
+- Render a pixel-art Felix Argyle from Re:Zero
+- Render a small-sized version of an Orloge Simard album cover
+### Long term:
+- Use GMMF to make portable 2D games with textures built into the executable directly
+- Use GMMF to deploy web content to potentially a lot of users
